@@ -49,3 +49,22 @@ There are several users of the ATM network:
 - ATM casing is impenetrable
 - Limited number of transaction per day (sufficient paper for receipts)
 - Limited amount of money withdrawn per day (sufficient money)
+## 3. Specific Requirements
+### 3.1. External Interfaces
+- User Interfaces
+  
+  ![image](https://github.com/HaThiPhuongLinh/Week01_Software-Architecture-and-Design/assets/109422010/80bf380b-cfe7-432a-a28f-25a727370603)
+- Hardware Interfaces
+  
+  ﻿- The ATM network has to provide hardware interfaces to:
+    - Various printers
+    - Various ATM machines (There are several companies producing the ATM machines)
+    - Several types of networks The exact specification of the hardware interfaces is not part of this document
+- Software Interfaces
+  
+  ﻿- The ATM network has to provide software interfaces to:
+    - The software used by different banks
+    - Different network software
+ 
+- Communication Interfaces
+   - There is no restriction of the ATM network to a specific network protocol as long as the performance requirements are satisfied.
