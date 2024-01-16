@@ -1,1 +1,2 @@
-# Software Requirements Specification for ATM System (Automated Teller Machine)
+# Software Description Document for ATM System (Automated Teller Machine)
+
