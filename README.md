@@ -23,5 +23,16 @@ desires no further transactions.
 ### 2.1 Product perspective
  ![image](https://github.com/HaThiPhuongLinh/Week01_Software-Architecture-and-Design/assets/109422010/6a9777dc-f99b-41db-bb24-7ccdc6eca92f)
    - ﻿The ATM network does not work independently. It works together with the banks' computers and the software run by the network's banks.
-### 2.2 Product perspective
-   - The ATM network doesn't work independently. It has to work together with the comput- ers/software owned by banks. There are clearly defined interfaces for the different systems.
+### 2.2 Product functions
+The main functions of the ATM system are:
+  - Withdraw cash
+  - Deposit cash
+  - Transfer funds
+  - Check balance
+  - Change PIN
+### 2.3. User Characteristics
+There are several users of the ATM network:
+- Customers are simply members of the general public with no special training.
+- Bank security personnel need have no special education or experience.
+- Maintainers must be experienced network administrators, to be able to connect new ATMs to the network.
+
