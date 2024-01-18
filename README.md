@@ -70,7 +70,7 @@ There are several users of the ATM network:
    - There is no restriction of the ATM network to a specific network protocol as long as the performance requirements are satisfied.
  ### 3.2. Functional Requirements
  #### 3.2.1 Use case diagram
-![image](https://github.com/HaThiPhuongLinh/Week01_Software-Architecture-and-Design/assets/109422010/be2aace2-0e9f-4428-9df0-762587754fec)
+![ATM Use Case Model](https://github.com/HaThiPhuongLinh/Week01_Software-Architecture-and-Design/assets/109422010/6c5252ce-2aab-4c84-b8e2-e2c2de08c7da)
  - **System Startup Use Case**: The system is started up when the operator turns the operator switch to the "on" position. The operator will be asked to enter the amount of money currently in the cash dispenser, and a connection to the bank will be established. Then the servicing of customers can begin.
  - **System Shutdown Use Case**:  The system is shut down when the operator makes sure that no customer is using the machine, and then turns the operator switch to the "off" position. The connection to the bank will be shut down. Then the operator is free to replenish cash and paper, etc.
  - **Maintenance**: Some practices such as regular cleaning,  software updates, preventative maintenance, monitoring and reporting,..
@@ -100,3 +100,12 @@ There are several users of the ATM network:
 - **Invalid PIN Extension**:
     - An invalid PIN extension is started from within a transaction when the bank reports that the customer's transaction is disapproved due to an invalid PIN. The customer is required to re-enter the PIN and the original request is sent to the bank again. If the bank now approves the transaction, or disapproves it for some other reason, the original use case is continued; otherwise the process of re-entering the PIN is repeated. Once the PIN is successfully re-entered, it is used for both the current transaction and all subsequent transactions in the session. If the customer fails three times to enter the correct PIN, the card is permanently retained, a screen is displayed informing the customer of this and suggesting he/she contact the bank, and the entire customer session is aborted.
     - If the customer presses Cancel instead of re-entering a PIN, the original transaction is cancelled.
+ #### 3.2.2 Sequence diagram
+ ![ATM Sequence Diagram](https://github.com/HaThiPhuongLinh/Week01_Software-Architecture-and-Design/assets/109422010/80eb07ae-965a-4bda-a79a-78267264a075)
+ #### 3.2.3 Activity diagram
+![ATM Activity Diagram](https://github.com/HaThiPhuongLinh/Week01_Software-Architecture-and-Design/assets/109422010/903931c8-4736-45ff-af7b-21f4e8ea77e6)
+ #### 3.2.4 Component Diagram
+ ![Starter Component Diagram](https://github.com/HaThiPhuongLinh/Week01_Software-Architecture-and-Design/assets/109422010/f294b626-d8dd-4def-bc15-76ad81e49f81)
+ #### 3.2.5 Deployment Diagram
+![Starter Deployment Diagram](https://github.com/HaThiPhuongLinh/Week01_Software-Architecture-and-Design/assets/109422010/65d69d06-cea3-4931-a439-ae1da547b697)
+
